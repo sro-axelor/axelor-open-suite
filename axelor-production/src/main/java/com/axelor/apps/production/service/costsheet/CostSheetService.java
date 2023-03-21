@@ -43,6 +43,6 @@ public interface CostSheetService {
       throws AxelorException;
 
   public CostSheet computeCostPrice(
-      ManufOrder manufOrder, int calculationTypeSelect, LocalDate calculationDate)
+      ManufOrder manufOrder, int calculationTypeSelect)
       throws AxelorException;
 }
